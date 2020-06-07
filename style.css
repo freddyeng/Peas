@@ -1,0 +1,29 @@
+
+@import "https://fonts.googleapis.com/css?family=Sofia";
+
+.main, a{
+  font-family: "Sofia";
+  list-style-position: inside;
+  text-align: center;
+  color:  #123c11;
+  background-color: #73d66f;
+}
+
+.list ul, ol, li>a{
+  padding: 0px;
+  color:  #b1e9af;
+}
+
+.list a:hover{
+  text-decoration: none;
+  color:  #123c11;
+}
+
+a:hover{
+ text-decoration: none;
+ color:  #b1e9af;
+}
+
+.learn ::before{
+  content: "Learn more!";
+}
