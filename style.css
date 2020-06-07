@@ -1,21 +1,29 @@
-h1 {
-  font-family: verdana;
-  font-size: 50px;
+
+@import "https://fonts.googleapis.com/css?family=Sofia";
+
+.main, a{
+  font-family: "Sofia";
+  list-style-position: inside;
+  text-align: center;
+  color:  #123c11;
+  background-color: #73d66f;
 }
 
-#link {
-  font-size: 80px;
+.list ul, ol, li>a{
+  padding: 0px;
+  color:  #b1e9af;
 }
 
-.type li {
-  color: green;
+.list a:hover{
+  text-decoration: none;
+  color:  #123c11;
+}
+
+a:hover{
+ text-decoration: none;
+ color:  #b1e9af;
 }
 
 .learn ::before{
   content: "Learn more!";
-}
-
-.mid {
-  list-style-position: inside;
-  text-align: center;
 }
